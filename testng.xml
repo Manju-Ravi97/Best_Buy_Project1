@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Bestbuy website">
+	<test thread-count="3" name="Check accoun soig In " >
+		<classes>
+			<class name="testCase.SignInTestCase" />
+			<class name="testCase.SignAndLoginTestCase" />
+			<class name="testCase.ValidateAllMenuTestCase" />
+			
+			</classes>
+	</test>
+
+			<test thread-count="3" name="Validate buttom link ">
+		<classes>
+			<class name="testCase.ValidateButtomLinkTest" />
+			<class name="testCase.SearchAndAddItemTestCase" />
+			<class name="testCase.AddItemMenuDeptTestCase" />
+
+		</classes>
+	</test>
+
+
+	<test thread-count="3" name="select any brand">
+		<classes>
+			<class name="testCase.SelectAnyBrandTestCase" />
+			<class name="testCase.DummyPayementTestCase" />
+			<class name="testCase.PayementInfotmationTestCase" />
+
+		</classes>
+	</test>
+
+
+		
+
+
+	
+
+	
+	
+</suite> <!--
+Suite -->
+
+
+
+
+
+
+
+
+
